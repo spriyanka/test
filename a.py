@@ -1,5 +1,7 @@
-def main():
-    print "first change in new branch"
+import sys
+
+def main(name):
+    print "you are %s" % name
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1])
